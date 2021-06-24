@@ -1,0 +1,282 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Montserrat", sans-serif;
+  line-height: 2em;
+  scroll-behavior: smooth;
+}
+.line-height-none {
+  line-height: normal;
+}
+a {
+  text-decoration: none;
+  color: white;
+  transition: all ease-in 0.2s;
+}
+span {
+  display: block;
+}
+
+
+/* ===============================TOP LANDING=============================== */
+
+.landing {
+  background-image: url("images/b2.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  max-width: 100%;
+  height: 100vh;
+  color: white;
+}
+#top-head {
+  font-size: 31px;
+}
+.nav {
+  display: flex;
+  justify-content: space-between;
+  padding: 20px 0px 10px 50px;
+  font-size: 15px;
+  font-weight: 700;
+  font-family: "Montserrat", sans-serif;
+}
+li {
+  list-style: none;
+  display: inline-block;
+  padding: 10px;
+  margin-right: 20px;
+}
+.nav li a:hover {
+  cursor: pointer;
+  color: #a3c962;
+}
+
+.landing-text {
+  text-align: center;
+  max-width: 790px;
+  margin: 20vh auto;
+  letter-spacing: 2px;
+}
+.landing-text p span {
+  padding-bottom: 12px;
+}
+
+.font-md {
+  font-size: 28px;
+  font-weight: bold;
+}
+.font-lg {
+  font-size: 39px;
+  font-weight: bolder;
+}
+
+button {
+  color: white;
+  margin-top: 3%;
+  border-radius: 20px;
+  padding: 8px 20px;
+  font-weight: bolder;
+  border: 2px solid #fff;
+  transition: all ease-in 0.2s;
+  letter-spacing: 2px;
+}
+
+button.white-btn {
+  color: #a3c962;
+  margin-right: 20px;
+}
+
+button.green-btn {
+  background-color: #a3c962;
+}
+
+button:focus {
+  outline: none;
+}
+
+button:hover {
+  cursor: pointer;
+  background-color: black;
+  color: white;
+}
+
+/* ===========================================ABOUT US===================================== */
+.about-section {
+  margin: 4% auto;
+  max-width: 1000px;
+}
+.what-we-do {
+  text-align: center;
+  max-width: 790px;
+  margin: 5% auto;
+}
+.what-we-do p span {
+  padding-bottom: 5px;
+}
+.about-us {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+.about-us-desc {
+  max-width: 50%;
+}
+
+.heading {
+  font-size: 20px;
+  color: #a3c962;
+  font-weight: 600;
+}
+.sub-head {
+  font-size: 24px;
+  font-weight: 700;
+}
+.text-sm {
+  font-size: 14px;
+}
+.what-we-do p span.sub-head {
+  font-weight: 700;
+  text-transform: uppercase;
+  padding-bottom: 2%;
+}
+
+.what-we-do p span.text-sm {
+  max-width: 400px;
+  margin: 0 auto;
+}
+.about-us-desc p span {
+  padding-bottom: 10px;
+}
+.about-us-desc p span.sub-head {
+  line-height: normal;
+  font-weight: normal;
+}
+
+.stats {
+  display: flex;
+  justify-content: space-between;
+}
+.stats {
+  text-align: center;
+  margin-top: 20px;
+}
+
+.outer-circle {
+  border-radius: 50%;
+  padding: 20px;
+}
+.inner-circle {
+  font-size: 25px;
+  padding: 30px;
+  border-radius: 50%;
+  box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+}
+.ninety {
+  border: 2px solid #049dff;
+  border-left: none;
+  color: #049dff;
+}
+.eighty {
+  border: 2px solid #1abc9c;
+  border-top: none;
+  border-left: none;
+  color: #1abc9c;
+}
+
+.seventy {
+  border-right: 2px solid #fdba04;
+  color: #fdba04;
+  border-top: 2px solid #fdba04;
+}
+
+.inner-circle {
+  font-size: 25px;
+  padding: 30px;
+  border-radius: 50%;
+  box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+}
+.stats h3 {
+  padding-top: 10px;
+  font-weight: normal;
+}
+
+/* ===========================SERVICE SECTION=========================================  */
+
+.service-section {
+  max-width: 100%;
+  background-image: url("images/s1.jpg");
+}
+
+.service-desc {
+  padding-top: 5%;
+  display: flex;
+  justify-content: center;
+  color: white;
+  line-height: normal;
+}
+.text-right {
+  text-align: right;
+}
+
+.text-left {
+  text-align: left;
+}
+.service-section p {
+  padding-left: 2%;
+}
+.service-showcase {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 4%;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  
+}
+.service {
+  max-width: 350px;
+  height: 230px;
+  background-color: white;
+  border: 2px solid white;
+  text-align: center;
+  padding: 40px 24px;
+  margin-top: 20px;
+  transition: ease-in 0.2s;
+}
+.service i {
+  transform: scale(2.3);
+}
+.service p span {
+  padding-bottom: 15px;
+}
+.green-text {
+  color: #a3c962;
+}
+
+.service:hover{
+  cursor: pointer;
+  transform: scale(1.05);
+  background-color: #dadada;
+}
+
+
+/* #===============small-div================ */
+
+.green-bg{
+  background-color: #a3c962;
+  color: white;
+}
+.text-blk{
+  color: black;
+}
+
+.small-div1{
+  display: flex;
+  justify-content: space-around;
+  padding: 30px;
+}
+.small-div1 div{
+  text-align: center;
+}
