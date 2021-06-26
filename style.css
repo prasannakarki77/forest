@@ -20,7 +20,6 @@ span {
   display: block;
 }
 
-
 /* ===============================TOP LANDING=============================== */
 
 .landing {
@@ -127,7 +126,7 @@ button:hover {
 .heading {
   font-size: 20px;
   color: #a3c962;
-  font-weight: 600;
+  font-weight: 900;
 }
 .sub-head {
   font-size: 24px;
@@ -233,7 +232,6 @@ button:hover {
   display: flex;
   justify-content: space-between;
   flex-wrap: wrap;
-  
 }
 .service {
   max-width: 350px;
@@ -255,28 +253,424 @@ button:hover {
   color: #a3c962;
 }
 
-.service:hover{
+.service:hover {
   cursor: pointer;
   transform: scale(1.05);
   background-color: #dadada;
 }
 
-
 /* #===============small-div================ */
 
-.green-bg{
+.green-bg {
   background-color: #a3c962;
   color: white;
 }
-.text-blk{
+.text-blk {
   color: black;
 }
 
-.small-div1{
+.small-div1 {
   display: flex;
   justify-content: space-around;
   padding: 30px;
 }
-.small-div1 div{
+.small-div1 div {
   text-align: center;
+  max-width: 100px;
+}
+.number {
+  font-size: 25px;
+  font-weight: bold;
+}
+.caption-text {
+  font-size: 22px;
+  font-weight: bold;
+}
+.small-div1 p span i {
+  transform: scale(1.5);
+}
+
+/* =======================Features-section===================== */
+.features-section p {
+  padding-left: 2%;
+}
+
+.features-desc {
+  padding-top: 5%;
+  display: flex;
+  justify-content: center;
+  color: white;
+  line-height: normal;
+}
+
+.features-showcase {
+  display: flex;
+  justify-content: space-between;
+  max-width: 1100px;
+  margin: 4% auto;
+}
+.features {
+  max-width: 700px;
+}
+.features-block p {
+  max-width: 500px;
+}
+.features-block .icon {
+  padding: 30px 5vw;
+  text-align: center;
+}
+.features-block span i {
+  transform: scale(3);
+}
+.features-block {
+  display: flex;
+  max-width: 600px;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+  margin-bottom: 30px;
+  border-radius: 12px;
+  box-shadow: -3px 7px 39px -5px rgb(0 0 0);
+}
+/* 
+==================Prices section======================== */
+.prices-section {
+  max-width: 100%;
+  background-image: url(images/b2.jpg);
+}
+.prices-section p {
+  padding-right: 2%;
+}
+
+.prices-desc {
+  padding-top: 5%;
+  display: flex;
+  justify-content: center;
+  color: white;
+  line-height: normal;
+}
+
+.text-white {
+  color: white;
+}
+.prices-showcase {
+  max-width: 1300px;
+  padding: 4% 0;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-evenly;
+}
+.prices-box {
+  width: 255px;
+  background: white;
+  text-align: center;
+  padding: 24px;
+  border-radius: 12px;
+}
+.prices-box p span {
+  padding: 4%;
+}
+.dollar {
+  display: inline;
+}
+span.prices-box-text {
+  max-width: 150px;
+  text-align: center;
+  margin: 0 auto;
+}
+.pricing-type {
+  font-size: 22px;
+  text-transform: uppercase;
+  font-weight: bolder;
+}
+
+/* ========================FEATURES SECTION====================== */
+
+.clients-section p {
+  padding-left: 2%;
+}
+
+.clients-desc {
+  padding-top: 5%;
+  display: flex;
+  justify-content: center;
+  color: white;
+  line-height: normal;
+}
+
+.clients-showcase {
+  max-width: 1100px;
+  margin: 4% auto;
+  display: flex;
+  justify-content: space-between;
+}
+.clients-box {
+  max-width: 320px;
+}
+/* ================================SMALL DIV-2================================ */
+
+.small-div2-desc {
+  margin: 0 auto;
+  max-width: 1200px;
+  padding: 70px;
+  padding-bottom: 50px;
+  text-align: center;
+}
+i.play-btn {
+  color: black;
+  font-size: 35px;
+  transition: all 0.2s ease-in;
+}
+i.play-btn {
+  border: 5px solid white;
+  padding: 15px 18px;
+  display: inline;
+  border-radius: 55%;
+  cursor: pointer;
+  transition: all 0.2s ease-in;
+  background-color: white;
+}
+i.play-btn:hover {
+  border-color: black;
+  background-color: black;
+  color: white;
+}
+
+.small-div2-desc span {
+  text-align: center;
+}
+.small-div2-desc p {
+  margin-top: 30px;
+}
+
+/* =========================VOLUNTEERS SECTION============================ */
+.volunteers-section p {
+  padding-left: 2%;
+}
+
+.volunteers-desc {
+  padding-top: 5%;
+  display: flex;
+  justify-content: center;
+  color: white;
+  line-height: normal;
+}
+
+.volunteers-showcase {
+  max-width: 1200px;
+  margin: 4% auto;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.volunteers-box {
+  max-width: 330px;
+  text-align: center;
+}
+span.social-icons {
+  display: flex;
+  justify-content: space-between;
+  padding: 10px;
+  max-width: 150px;
+  margin: 0 auto;
+}
+span.social-icons i {
+  border: 5px solid rgb(0, 0, 0);
+  border-radius: 55%;
+  color: white;
+  background-color: rgb(0, 0, 0);
+  padding: 5px 6px;
+  transition: all 0.2s ease-in;
+}
+
+span.social-icons i:hover {
+  background-color: #a3c962;
+  border-color: #a3c962;
+  cursor: pointer;
+}
+
+/* =========================BLOGS SECTION=================================== */
+.blogs-section {
+  background-image: url("images/b1.jpg");
+  width: 100%;
+}
+.blogs-section p {
+  padding-right: 2%;
+}
+.blogs-section {
+  padding: 2%;
+}
+
+.blogs-desc {
+  padding-top: 5%;
+  display: flex;
+  justify-content: center;
+  color: white;
+  line-height: normal;
+}
+.blogs-showcase {
+  display: flex;
+  max-width: 1100px;
+  justify-content: space-between;
+  margin: 4% auto;
+}
+
+.inner-box img {
+  width: 100%;
+  object-fit: contain;
+}
+.inner-box p {
+  display: block;
+}
+.blogs-box {
+  background-color: white;
+  max-width: 350px;
+  padding: 15px;
+  transition: all 0.2s ease-in;
+}
+.flex-text {
+  display: flex;
+  justify-content: space-between;
+}
+
+.blogs-text {
+  padding: 10px 0;
+}
+
+.blogs-box:hover {
+  cursor: pointer;
+  transform: rotate(5deg);
+}
+
+/* ===============================CONTACTS SECTION====================================== */
+
+.contact-section p {
+  padding-left: 2%;
+}
+
+.contact-desc {
+  padding-top: 5%;
+  display: flex;
+  justify-content: center;
+  color: white;
+  line-height: normal;
+}
+
+.contact-showcase {
+  max-width: 1000px;
+  display: flex;
+  justify-content: space-between;
+  margin: 4% auto;
+}
+
+.contact-form {
+  width: 570px;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+}
+.contact-form input,
+textarea,
+.send-btn {
+  display: block;
+  margin: 10px;
+  padding: 10px;
+  background-color: #efefef;
+  border: none;
+  border-bottom: 1px solid black;
+  box-shadow: 0px 1px 1px 0px black;
+  outline: none;
+  font-weight: 600;
+  transition: all 0.3s ease-in;
+}
+
+.contact-form input:focus,
+textarea:focus {
+  color: #495057;
+  background-color: #fff;
+  border-color: #80bdff;
+  outline: 0;
+  box-shadow: 0 0 0 0.2rem rgb(0 123 255 / 25%);
+}
+
+textarea {
+  resize: none;
+}
+.info {
+  display: flex;
+
+  align-items: center;
+}
+.info .icon {
+  display: inline-block;
+  transform: scale(2);
+  padding: 0 30px;
+}
+
+.info p {
+  max-width: 400px;
+  padding: 20px;
+  text-align: left;
+}
+div.contact-info {
+  max-width: 600px;
+}
+
+/* =================MAP-SECTION============================= */
+
+.map-section {
+  padding: 10px;
+  border: 1px solid #6c757d;
+}
+
+.small-div3 {
+  padding: 3%;
+}
+.small-div3 p {
+  text-align: center;
+  max-width: 500px;
+  margin: 0 auto;
+}
+
+.footer-icons i {
+  color: black;
+  border: 10px solid white;
+  border-radius: 55%;
+  background-color: white;
+  transition: all 0.2s ease-in;
+}
+.footer-icons {
+  display: flex;
+  justify-content: space-between;
+  padding: 10px;
+  max-width: 150px;
+  margin: 0 auto;
+}
+.footer-icons i:hover {
+  color: white;
+  border-color: black;
+  background-color: black;
+  cursor: pointer;
+}
+
+.top-arrow i {
+  color: black;
+  border: 10px solid white;
+  border-radius: 55%;
+  background-color: white;
+  transition: all 0.2s ease-in;
+}
+
+.top-arrow i:hover {
+  color: white;
+  border-color: black;
+  background-color: black;
+  cursor: pointer;
+}
+
+#github-repo:hover {
+  color: white;
 }
