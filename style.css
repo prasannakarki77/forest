@@ -765,6 +765,7 @@ div.contact-info {
   .small-div1 p {
     margin-bottom: 30px;
   }
+
 }
 
 @media (max-width: 1038px) {
@@ -832,10 +833,103 @@ div.contact-info {
   .contact-form{
     width: 100%;
   }
-
   
 }
 
-@media max {
-  
+/* FOR FONTS */
+@media (max-width:500px) {
+  .font-md{
+    font-size: 20px;
+  }
+  .font-lg{
+    font-size: 24px;
+  }
+  .heading{
+    font-size: 17px;
+  }
+  .sub-head{
+    font-size: 20px;
+  }
+  .features-block span i {
+    transform: scale(2);
+}
+/* HAMBURGER NAV BAR */
+
+@media screen and (max-width: 700px) {
+  .line {
+    width: 28.5px;
+    height: 3px;
+    background-color: white;
+    margin-bottom: 5px;
+    transform-origin: 24.5px;
+    transition: transform 0.4s ease-in-out, opacity 0.4s ease-in-out;
+  }
+  .landing {
+    position: relative;
+  }
+  .nav{
+    padding: 0;
+  }
+  #top-head{
+    margin: 40px 20px 0 20px;
+  }
+  .hamburger {
+    position: absolute;
+    cursor: pointer;
+    right: 12px;
+    top:22px;
+    z-index: 2;
+
+  }
+  .line:nth-child(1) {
+    margin-top: 0;
+  }
+  .hamburger.open div.line:nth-child(1) {
+    transform: rotate(-45deg);
+  }
+  .hamburger.open div.line:nth-child(2) {
+    opacity: 0;
+  }
+  .hamburger.open div.line:nth-child(3) {
+    transform: rotate(45deg);
+  }
+  ul.nav-comp {
+    position: fixed;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    background-color: rgb(0, 0, 0);
+    height: 100vh;
+    width: 100%;
+    z-index: 1;
+    clip-path: circle(10px at 90% -10%);
+    transition: all 1s ease-out;
+  }
+  ul.nav-comp.open {
+    clip-path: circle(2000px at 90% 10%);
+  }
+  .nav-comp li {
+    opacity: 0;
+    margin-right: 0;
+  }
+  .nav-comp li:nth-child(1) {
+    transition: all 0.5s ease 0.2s;
+  }
+  .nav-comp li:nth-child(2) {
+    transition: all 0.5s ease 0.3s;
+  }
+  .nav-comp li:nth-child(3) {
+    transition: all 0.5s ease 0.4s;
+  }
+  .nav-comp li:nth-child(4) {
+    transition: all 0.5s ease 0.5s;
+  }
+  .nav-comp li:nth-child(5) {
+    transition: all 0.5s ease 0.5s;
+  }
+  .nav-comp li.fade {
+    opacity: 1;
+  } 
 }
