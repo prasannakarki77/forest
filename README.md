@@ -33,8 +33,9 @@
 <!-- OVERVIEW -->
 
 ## Overview
-
+DESKTOP 
 ![screenshot](images/screenshot1.png)
+MOBILE
 ![screenshot](images/screenshot2.png)
 
 ### Built With
