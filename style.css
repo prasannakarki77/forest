@@ -8,7 +8,7 @@
   line-height: 2em;
   scroll-behavior: smooth;
 }
-body{
+body {
   min-width: 280px;
 }
 .line-height-none {
@@ -719,7 +719,9 @@ div.contact-info {
   .clients-showcase,
   .volunteers-desc,
   .blogs-desc,
-  .blogs-showcase,.contact-desc, .contact-showcase {
+  .blogs-showcase,
+  .contact-desc,
+  .contact-showcase {
     flex-direction: column;
     align-items: center;
   }
@@ -747,14 +749,13 @@ div.contact-info {
   .clients-box {
     max-width: 600px;
   }
-  .contact-info{
+  .contact-info {
     max-width: 90vw;
     align-items: center;
   }
-  .info{
+  .info {
     width: 100%;
   }
-
 }
 
 @media (max-width: 440px) {
@@ -765,7 +766,6 @@ div.contact-info {
   .small-div1 p {
     margin-bottom: 30px;
   }
-
 }
 
 @media (max-width: 1038px) {
@@ -798,11 +798,9 @@ div.contact-info {
     flex-direction: column;
     align-items: center;
   }
-  .about-us-desc{
+  .about-us-desc {
     max-width: 406px;
   }
-  
-
 }
 
 @media (max-width: 1323px) {
@@ -829,33 +827,33 @@ div.contact-info {
   }
 }
 
-@media (max-width:590px) {
-  .contact-form{
+@media (max-width: 590px) {
+  .contact-form {
     width: 100%;
   }
-  
 }
 
 /* FOR FONTS */
-@media (max-width:500px) {
-  .font-md{
+@media (max-width: 500px) {
+  .font-md {
     font-size: 20px;
   }
-  .font-lg{
+  .font-lg {
     font-size: 24px;
   }
-  .heading{
+  .heading {
     font-size: 17px;
   }
-  .sub-head{
+  .sub-head {
     font-size: 20px;
   }
   .features-block span i {
     transform: scale(2);
+  }
 }
 /* HAMBURGER NAV BAR */
 
-@media screen and (max-width: 700px) {
+@media (max-width: 700px) {
   .line {
     width: 28.5px;
     height: 3px;
@@ -867,19 +865,18 @@ div.contact-info {
   .landing {
     position: relative;
   }
-  .nav{
+  .nav {
     padding: 0;
   }
-  #top-head{
+  #top-head {
     margin: 40px 20px 0 20px;
   }
   .hamburger {
     position: absolute;
     cursor: pointer;
     right: 12px;
-    top:22px;
+    top: 22px;
     z-index: 2;
-
   }
   .line:nth-child(1) {
     margin-top: 0;
@@ -931,5 +928,5 @@ div.contact-info {
   }
   .nav-comp li.fade {
     opacity: 1;
-  } 
+  }
 }
